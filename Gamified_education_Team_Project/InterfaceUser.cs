@@ -10,10 +10,9 @@ namespace Gamified_education_Team_Project
     {
         string Name { get; set; }
         string Surname { get; set; }
-        int Age { get; set; }
         string Email { get; set; }
-        int Password { get; set; }
-        int UserId { get; set; }
-        int UserType { get; set; }
+        string Password { get; set; }
+        string UserId { get; set; }
+        string UserType { get; set; }
     }
 }
